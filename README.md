@@ -28,3 +28,5 @@ So now if I add this new Topic name to the code, and update the url to localhost
 2. Reads from a user input about the state of the weather
 
 I can also publish to a producer, which will create a new topic, and so long as it runs for the first time before the consumer, then the consumer will be able to read from the topic, and I can log the message to the console. Again, this requires the image to be up and running, but then I can see the messages logged to the topic in the UI
+
+In order to read from the topic, I have set up a consumer called in the KafkaConsumer repo
